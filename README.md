@@ -1,5 +1,5 @@
 <div align="Center">
-<img width="100" src="https://github.com/AshifC99/AshifC99.github.io/blob/main/Logo/logo%20animated/logo%207.gif" />
+<img width="100" src="https://ashif.eu/Logo/logo%20animated/logo%207.gif" />
 
 <div align="center">
 
