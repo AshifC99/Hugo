@@ -20,9 +20,9 @@
 
 <div align="Center">
 
-| Website                                                             | Programming                                                                     |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| <img src="https://skillicons.dev/icons?i=html,css,js,c,c++,c#,py"/> | <img src="https://skillicons.dev/icons?i=bash,vscode,vscodium,sublime,github"/> |
+| Website                                                                                         | Programming                                                                                                             |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://skillicons.dev/icons?i=html,css,tailwind,js,ts,java,c,cpp,cs,py,mysql,vite"/> | <img src="https://skillicons.dev/icons?i=bash,powershell,vscode,vscodium,visualstudio,sublime,neovim,github,npm,pnpm"/> |
 
 </div>
 
