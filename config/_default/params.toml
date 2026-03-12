@@ -1,0 +1,184 @@
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/configuration/#theme-parameters
+
+colorScheme = "blowfish" # blowfish, avocado, fire, ocean, forest, princess, neon, bloody, terminal, marvel, noir, autumn, congo, slate, github, and one-light.
+defaultAppearance = "light" # valid options: light or dark
+autoSwitchAppearance = true
+
+enableA11y = true
+enableSearch = true
+enableCodeCopy = true
+enableCodeLineNumbers = true
+enableStructuredBreadcrumbs = true
+enableStyledScrollbar = true # disable to use native scrollbar style (defaults to true)
+
+replyByEmail = false
+
+# mainSections = ["section1", "section2"]
+ robots = "index, follow" # valid options: index, follow,
+
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
+# backgroundImageWidth = 1200
+
+# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
+# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
+# defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
+hotlinkFeatureImage = false
+# imagePosition = "50% 50%"
+
+# highlightCurrentMenuArea = true
+# smartTOC = true
+# smartTOCHideUnfocusedChildren = true
+
+fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
+
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v11.next.forgejo.org"
+
+[header]
+  layout = "fixed-fill-blur" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "background" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "Logos/Cover mobile.png" # used in: hero, and card
+  showRecent = true
+  showRecentItems = 20
+  showMoreLink = true
+  showMoreLinkDest = "/posts/"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = false # only used when layout equals background
+  disableHeroImageFilter = false # only used when layout equals hero
+
+[article]
+  showDate = false
+   dateFormat = "January 2, 2006" # https://golang.org/pkg/time/#Time.Format
+  showViews = false
+  showLikes = false
+  showDateOnlyInArticle = true # if true, the date will only be shown in the article page, not in the article list
+  showDateUpdated = false
+  showAuthor = true
+   showAuthorBottom = true
+  showHero = true
+   heroStyle = "thumbAndBackground" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  # editURL = "https://github.com/username/repo/"
+  editAppendPath = true
+  seriesOpened = false
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  # showRelatedContent = false
+  # relatedContentLimit = 3
+  showTaxonomies = true # use showTaxonomies OR showCategoryOnly, not both
+  showCategoryOnly = false # use showTaxonomies OR showCategoryOnly, not both
+  showAuthorsBadges = false
+  showWordCount = true
+   sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp"]
+  showZenMode = true
+   externalLinkForceNewTab = true # disable to allow external links in the same tab (defaults to true)
+
+[list]
+  showHero = true
+   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = false # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
+  showBreadcrumbs = true
+  showSummary = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  showCards = true
+  orderByWeight = false
+  groupByYear = true
+  cardView = false
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+  showTermCount = false
+  showHero = true
+   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  cardView = true
+
+[term]
+  showHero = false
+  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  groupByYear = false
+  cardView = false
+  cardViewScreenWidth = false
+
+[firebase]
+  # apiKey = "XXXXXX"
+  # authDomain = "XXXXXX"
+  # projectId = "XXXXXX"
+  # storageBucket = "XXXXXX"
+  # messagingSenderId = "XXXXXX"
+  # appId = "XXXXXX"
+  # measurementId = "XXXXXX"
+
+[fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
+
+[umamiAnalytics]
+   websiteid = "5bf52e62-b3f8-4887-9d76-c6e4e0a8b227"
+   domain = "cloud.umami.is"
+   #dataDomains = "ashif.eu"
+   #scriptName = "https://cloud.umami.is/script.js"
+   enableTrackEvent = true
+
+[selineAnalytics]
+   token = "cbe5ce0ebaea7f3"
+   enableTrackEvent = true
+
+[buymeacoffee]
+   identifier = "ashifc"
+   globalWidget = true
+   globalWidgetMessage = "Support Me :)"
+   globalWidgetColor = "#04f997"
+   globalWidgetPosition = "right"
+
+[verification]
+  google = "googlef43abc4d5b00d81a"
+  bing = "8ADEEC0DE14F8A706F410E4FEE3137A0"
+  # pinterest = ""
+  # yandex = ""
+   fediverse = "@AshifC@mastodon.social"
+
+[rssnext]
+  # feedId = ""
+  # userId = ""
+
+[advertisement]
+  # adsense = "ca-pub-1171345218874086"
