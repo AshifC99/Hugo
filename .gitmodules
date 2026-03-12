@@ -2,3 +2,6 @@
 	path = themes/blowfish
 	url = https://github.com/nunocoracao/blowfish.git
 	branch = main
+[submodule "themes/typographical"]
+	path = themes/typographical
+	url = https://github.com/theramiyer/typographical-hugo.git
